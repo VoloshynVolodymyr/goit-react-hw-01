@@ -11,6 +11,7 @@ export const UserDescription = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: ${props => props.theme.spacing(5)};
   img {
     background-color: steelblue;
     border-radius: 50%;
