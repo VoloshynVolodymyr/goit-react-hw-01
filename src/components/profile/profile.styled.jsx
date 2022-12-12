@@ -45,7 +45,7 @@ export const Location = styled.p`
 export const Stats = styled.ul`
   margin: 0;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: ${props => props.theme.spacing(2)};
   display: flex;
   flex-direction: row;
 `;
