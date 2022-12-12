@@ -1,11 +1,15 @@
 import styled from '@emotion/styled';
 
+export const WrapperTable = styled.div`
+  background-color: ${props => props.theme.colors.secondBgColor};
+`
+
 export const Table = styled.table`
   width: fit-content;
   margin: 0 auto;
   border-spacing: 1px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const Head = styled.thead`

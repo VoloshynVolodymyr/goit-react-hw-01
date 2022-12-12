@@ -19,6 +19,6 @@ export const StatisticWrapper = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: lavenderblush;
+  background-color: ${props => props.theme.colors.secondBgColor};
   margin: 20px 0;
 `;

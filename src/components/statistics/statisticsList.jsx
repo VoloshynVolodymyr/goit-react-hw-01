@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import Statistics from './statistics';
-import { StatisticWrapper } from './statistics.styled';
+import Statistics from './Statistics';
+import { StatisticWrapper } from './Statistics.styled';
 
 const StatisticsList = ({ items }) => {
   return (

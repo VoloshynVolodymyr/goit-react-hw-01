@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import TransactionHistory from './TransactionHistory';
 import {
+  WrapperTable,
   Table,
   Head,
   TrowHead,
@@ -9,7 +10,8 @@ import {
 
 const TransactionHistoryTable = ({ items }) => {
   return (
-    <Table className="transaction-history">
+    <WrapperTable>
+      <Table>
       <Head>
         <TrowHead>
           <TableHeader>Type</TableHeader>
@@ -26,6 +28,7 @@ const TransactionHistoryTable = ({ items }) => {
         />
       ))}
     </Table>
+    </WrapperTable>
   );
 };
 

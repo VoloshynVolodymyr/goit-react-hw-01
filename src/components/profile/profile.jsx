@@ -12,7 +12,7 @@ import {
   StatsList,
   Label,
   Quantity,
-} from './profile.styled';
+} from './Profile.styled';
 
 const Profile = props => {
   const {
@@ -34,7 +34,7 @@ const Profile = props => {
           <Tag>@{tag}</Tag>
           <Location>{location}</Location>
         </UserInfo>
-      </UserDescription>
+      
 
       <Stats>
         <StatsList>
@@ -56,6 +56,7 @@ const Profile = props => {
           <Quantity>{likes}</Quantity>
         </StatsList>
       </Stats>
+      </UserDescription>
     </UserProfile>
   );
 };

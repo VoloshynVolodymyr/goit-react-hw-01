@@ -16,6 +16,7 @@ export const UserDescription = styled.div`
     border-radius: 50%;
     margin-top: ${props => props.theme.spacing(5)};
   }
+  background-color: ${props => props.theme.colors.cardBgColor};
 `;
 
 export const UserInfo = styled.div`
@@ -42,6 +43,9 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
 `;

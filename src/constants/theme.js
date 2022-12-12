@@ -1,8 +1,10 @@
 export const theme = {
   colors: {
     profileBgColor: 'honeydew',
+    secondBgColor: 'lavenderblush',
     avatarBgColor: 'steelblue',
     labelBgColor: 'steelblue',
+    cardBgColor: 'lightskyblue',
     statsBgColor: 'rgb(247, 244, 241)',
     mainTextColor: 'black',
     white: '#ffffff',

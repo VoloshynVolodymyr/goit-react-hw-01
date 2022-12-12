@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatisticItem, StatisticLabel } from './statistics.styled';
+import { StatisticItem, StatisticLabel } from './Statistics.styled';
 import getRandomColor from 'Utils/getRandomColor';
 
 const Statistics = props => {

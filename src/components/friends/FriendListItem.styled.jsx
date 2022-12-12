@@ -28,8 +28,8 @@ align-items: center;
     if (!isOnline) {
       return theme.colors.isOffline;
     }
-  }}};
-  `;
+  }}
+  `
 
   export const Check = styled.p`
    color:${({ isOnline, theme }) => {
