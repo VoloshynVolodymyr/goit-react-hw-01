@@ -1,4 +1,4 @@
-import Profile from './profile/Profile'
+import Profile from './profile/Profile';
 import StatisticsList from './statistics/StatisticsList';
 import FriendList from './friends/FriendList';
 import TransactionHistoryTable from "./transactions/TransactionHistoryTable";
