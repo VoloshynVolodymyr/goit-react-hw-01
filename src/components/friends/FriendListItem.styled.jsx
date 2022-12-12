@@ -10,6 +10,9 @@ export const FriendBox = styled.ul`
   p {
     margin: 0;
   }
+  margin: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  padding: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  list-style: none;
 `;
 
 export const Item = styled.li`

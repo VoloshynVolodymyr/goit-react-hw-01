@@ -5,6 +5,9 @@ export const StatisticItem = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(6)};
+  list-style: none;
+	margin: 0;
+  
 `;
 
 export const StatisticLabel = styled.span`
@@ -20,5 +23,7 @@ export const StatisticWrapper = styled.ul`
   flex-direction: row;
   justify-content: center;
   background-color: ${props => props.theme.colors.secondBgColor};
-  margin: 20px 0;
+  margin: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  padding: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  list-style: none;
 `;

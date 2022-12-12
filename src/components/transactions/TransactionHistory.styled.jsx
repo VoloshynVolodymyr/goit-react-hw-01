@@ -2,7 +2,9 @@ import styled from '@emotion/styled';
 
 export const WrapperTable = styled.div`
   background-color: ${props => props.theme.colors.secondBgColor};
-`
+  margin: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  padding: ${props => props.theme.spacing(5)} ${props => props.theme.spacing(5)};
+  `
 
 export const Table = styled.table`
   width: fit-content;
