@@ -12,7 +12,7 @@ import {
   StatsList,
   Label,
   Quantity,
-} from './Profile.styled';
+} from './profile.styled';
 
 const Profile = props => {
   const {
